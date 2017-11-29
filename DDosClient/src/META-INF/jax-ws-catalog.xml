@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/DDosServer/ServerWebServer?wsdl" uri="xml-resources/web-service-references/ServerWebServer/wsdl/localhost_8080/DDosServer/ServerWebServer.wsdl"/>
+    <system systemId="http://localhost:8080/DDosServer/ServerWebServer?xsd=1" uri="xml-resources/web-service-references/ServerWebServer/wsdl/localhost_8080/DDosServer/ServerWebServer.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/MyServer/ServerWebService?wsdl" uri="wsdl/localhost_8080/MyServer/ServerWebService.wsdl"/>
+    <system systemId="http://localhost:8080/MyServer/ServerWebService?xsd=1" uri="wsdl/localhost_8080/MyServer/ServerWebService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/MyServer/ServerWebService?xsd=2" uri="wsdl/localhost_8080/MyServer/ServerWebService.xsd_2.xsd"/>
+</catalog>

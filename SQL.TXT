@@ -1,0 +1,59 @@
+ drop database DDOS;
+create database DDOS;
+use  DDOS;
+
+create table log
+(
+logid int primary key auto_Increment,
+ip     VARCHAR(30),
+attackType VARCHAR(40),
+currtime double,
+reasonblock varchar(100),
+timeSinceLast double,
+reqtimediff double,
+isblock int,
+size int
+);
+create table miningSet
+(
+mid int primary key auto_Increment,
+reqtimediff double,
+size int,
+output int
+);
+create table user
+(
+uid varchar(30) primary key,
+fname varchar(30),
+mname varchar(30),
+lname varchar(30),
+address varchar(30),
+mobile varchar(30),
+email varchar(30),
+password varchar(30),
+misCnt int
+);
+
+create table logMultiple
+(
+logid int primary key auto_Increment,
+ip     VARCHAR(30),
+attackType VARCHAR(40),
+reasonblock varchar(100),
+isblock int
+);
+create table blackList
+(
+bid int primary key auto_Increment,
+ip VARCHAR(40)
+
+);
+
+
+
+
+
+
+
+
+
